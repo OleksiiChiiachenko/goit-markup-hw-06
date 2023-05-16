@@ -786,7 +786,7 @@ button {
     gap: 24px;
 }
 
-.subscribe-form-field {}
+
 
 .subscribe-email {
     min-width: 264px;
@@ -799,14 +799,13 @@ button {
     padding-left: 16px;
     outline: transparent;
     border: 1px solid #FFFFFF;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
 
     transition: var(--animation-speed) cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-email:focus {
-    outline: 1px solid var(--acent-color);
+    border: 1px solid var(--acent-color);
     border-radius: 4px;
 }
 
@@ -960,7 +959,8 @@ button {
 }
 
 .form-field:focus {
-    outline: 1px solid var(--acent-color);
+    border: 1px solid var(--acent-color);
+    ;
 
 }
 
@@ -997,7 +997,8 @@ button {
 }
 
 .form-comment:focus {
-    outline: 1px solid var(--active-color);
+    border: 1px solid var(--acent-color);
+    ;
 }
 
 .form-agreement {
